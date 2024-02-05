@@ -26,7 +26,8 @@ class CalculatorApp:
                 row_val += 1
     def button_click(self, value):
         current_expression = self.entry_var.get()
-                if value == '=':
+                
+        if value == '=':
             try:
                 result = eval(current_expression)
                 self.entry_var.set(result)
