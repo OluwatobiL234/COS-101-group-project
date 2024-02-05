@@ -26,6 +26,14 @@ class CalculatorApp:
                 row_val += 1
     def button_click(self, value):
         current_expression = self.entry_var.get()
+                if value == '=':
+            try:
+                result = eval(current_expression)
+                self.entry_var.set(result)
+            except Exception as e:
+                self.entry_var.set("Error")
+        else:
+            self.entry_var.set(current_expression + value)
 
 if __name__ == "__main__":
      root = tk.Tk()
