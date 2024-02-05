@@ -15,6 +15,15 @@ class CalculatorApp:
             '7', '8', '9', '-',
             '0', '.', '/', '='
         ]
+        row_val = 1
+        col_val = 0
+
+        for button in buttons:
+            tk.Button(root, text=button, padx=40, pady=40, font=('Bahnschrift SemiLight Condensed', 20), command=lambda b=button: self.button_click(b)).grid(row=row_val, column=col_val)
+            col_val += 1
+            if col_val > 3:
+                col_val = 0
+                row_val += 1
     def button_click(self, value):
         current_expression = self.entry_var.get()
 
