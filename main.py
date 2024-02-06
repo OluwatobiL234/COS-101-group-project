@@ -6,20 +6,20 @@ class CalculatorApp:
         self.root.title("MARKET CALCULATOR")
 
         self.entry_var = tk.StringVar()
-        self.entry = tk.Entry(root, textvariable=self.entry_var, font=('Bahnschrift SemiLight Condensed', 25), justify='right', bd=10)
+        self.entry = tk.Entry(root, textvariable=self.entry_var, font=('Albertus Medium', 25), justify='right', bd=10)
         self.entry.grid(row=0, column=0, columnspan=4)
 
         buttons = [
             '1', '2', '3', '+',
             '4', '5', '6', '*',
             '7', '8', '9', '-',
-            '0', '.', '/', '='
+            '.', '0', '/', '='
         ]
         row_val = 1
         col_val = 0
 
         for button in buttons:
-            tk.Button(root, text=button, padx=40, pady=40, font=('Bahnschrift SemiLight Condensed', 20), command=lambda b=button: self.button_click(b)).grid(row=row_val, column=col_val)
+            tk.Button(root, text=button, padx=50, pady=50, font=('Albertus Medium', 30), command=lambda b=button: self.button_click(b)).grid(row=row_val, column=col_val)
             col_val += 1
             if col_val > 3:
                 col_val = 0
