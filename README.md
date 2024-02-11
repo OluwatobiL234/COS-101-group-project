@@ -5,3 +5,5 @@
 ![MARKET CALCULATOR 10_02_2024 16_28_45](https://github.com/IsaacAkpasu006/COS-101-group-project/assets/150260993/f6ce1222-c85e-4749-b135-726a0c7a4f21)
 
 ![MARKET CALCULATOR 10_02_2024 16_28_49](https://github.com/IsaacAkpasu006/COS-101-group-project/assets/150260993/8457b0f6-8b3e-497c-9547-f30c51978a1a)
+
+[BASIC PYTHON CALCULATOR PPP.pptx](https://github.com/IsaacAkpasu006/COS-101-group-project/files/14233662/BASIC.PYTHON.CALCULATOR.PPP.pptx)
